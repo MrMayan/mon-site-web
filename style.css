@@ -832,7 +832,8 @@ animation-delay: calc(.3s * var(--i));
 
     .home{
         padding: 0 4%;
-  
+    }
+
     }
     .im1 {
         transform: translateX(250px);
@@ -1051,5 +1052,12 @@ home-sci{
     100%{
         width: 0;
     }
+}
+
+
+header.sticky {
+    background-color: #081b29;
+    padding: 10px 5%;
+    box-shadow: 0px 0px 40px rgb(0 0 0/ 40%); 
 }
     
